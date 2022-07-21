@@ -1,0 +1,292 @@
+/* Google font apply */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+<script src="https://kit.fontawesome.com/3ed58cb1f4.js" crossorigin="anonymous"></script>body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Banner section added */
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.Banner-section {
+    width: 1120px;
+    height: 520px;
+    display: flex;
+    background-color: black;
+    margin: 5px auto;
+    border-radius: 10px;
+}
+
+.cover-item {
+    width: 50%;
+    margin-left: 70px;
+    padding-top: 87px;
+}
+
+.cover-item img {
+    width: 80%;
+
+}
+
+span {
+    text-shadow: 4px 4px 4px cadetblue;
+}
+
+.cover-item a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding: 8px 20px;
+}
+
+.cover-item a:hover {
+    color: white;
+    background-color: darkslategray;
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 700px;
+    line-height: 25px;
+
+
+}
+
+p {
+    color: white;
+    font-size: 14px;
+}
+
+/* responsive */
+@media screen and (max-width: 576px) {
+    .Banner-section {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 570px;
+        margin: 0;
+        padding-right: 20px;
+
+    }
+
+    .cover-item {
+        padding-top: 30px 20px 30px;
+        margin-bottom: 8px;
+
+    }
+
+    p {
+        font-size: 3vw;
+    }
+
+    .cover-item img {
+        height: 200px;
+        width: 400px;
+        margin-top: 20px;
+
+    }
+
+    .main-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .match-fixtures {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+
+
+.match-sehedule {
+
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 101px;
+    margin-top: 80px;
+
+
+
+}
+
+.match-sehedule a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding: 8px 20px;
+    text-align: center;
+
+
+
+}
+
+.fa-solid {
+    font-size: 12px;
+}
+
+input {
+    color: white;
+    background-color: cadetblue;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: 1px solid cadetblue;
+}
+
+.match-sehedule .box-1 {
+    background-color: white;
+    color: black;
+}
+
+.match-sehedule .box-1:hover {
+    color: white;
+    background-color: darkslategray;
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+}
+
+.match-sehedule .box-1:active {
+    color: white;
+    background-color: skyblue;
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+}
+
+
+.match-sehedule .box-2 {
+    padding: 8px 50px;
+    background-color: white;
+    color: black;
+}
+
+.match-sehedule .box-2:hover {
+    color: white;
+    background-color: darkslategray;
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+}
+
+.match-sehedule .box-2:active {
+    color: white;
+    background-color: skyblue;
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+}
+
+.match-sehedule .box-3 {
+    padding: 8px 68px;
+    background-color: cadetblue;
+}
+
+.main-section {
+    display: flex;
+
+
+}
+
+.match-fixtures {
+    width: 70%;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 30px white;
+
+
+}
+
+.match-fixtures h3 {
+    font-size: 18px;
+}
+
+.match-fixtures img {
+    width: 226px;
+    height: 120px;
+
+}
+
+.match-sehedule-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-top: 81px;
+    margin-left: 10px;
+
+
+
+}
+
+.footer-section {
+    width: 1130px;
+    height: 260px;
+    background-color: black;
+    padding-right: 17px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+hr {
+    color: grey;
+    width: 90%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+
+.fa-brands {
+    font-size: 28px;
+}
+
+/* second link */
+.team {
+    display: flex;
+    height: 200px;
+    width: 400x;
+    border: 1px solid darkgrey;
+    align-items: center;
+
+
+
+}
+
+.team img {
+    width: 110px;
+    height: 40px;
+}
+
+
+.fixtures-section {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+    column-gap: 50px;
+    margin-left: 20px;
+    padding-top: 80px;
+}
